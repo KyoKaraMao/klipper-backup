@@ -9,3 +9,27 @@ moonraker.log*
 klippy.log*
 EOF
 
+# Logdateien
+printer_data/logs/
+*.log
+
+# Temporäre Dateien
+*.tmp
+*.swp
+*.bak
+
+# Datenbankdateien
+printer_data/database/
+*.db
+
+# GCode-Dateien (optional, falls du sie nicht versionieren möchtest)
+printer_data/gcodes/
+
+# Moonraker-spezifische Dateien
+printer_data/.moonraker.uuid
+printer_data/moonraker.asvc
+
+# Systemdateien
+.DS_Store
+Thumbs.db
+
