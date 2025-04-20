@@ -1,0 +1,11 @@
+cat << 'EOF' > .gitignore
+*.log
+*.bin
+*.pyc
+__pycache__/
+logs/
+out/
+moonraker.log*
+klippy.log*
+EOF
+
